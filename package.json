@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "CLI inventory app",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanmixer/bamazon.git"
+  },
+  "author": "Dean Mixer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deanmixer/bamazon/issues"
+  },
+  "homepage": "https://github.com/deanmixer/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
