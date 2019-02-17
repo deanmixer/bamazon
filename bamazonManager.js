@@ -56,7 +56,6 @@ function viewProducts() {
             possibleItemIds.push(res[i].item_id);
         }
         console.log("");
-        console.log("");
         start()
     });
 }
@@ -73,7 +72,6 @@ function viewLowInv() {
             console.log(res[i].item_id + " | " + res[i].department_name +  " | " + res[i].product_name + " | " + res[i].price+ " | " + res[i].stock_quantity);
         }
         console.log("");
-        console.log("");
         // connection.end();
         start()
     });
@@ -89,7 +87,6 @@ function addInv() {
             console.log(res[i].item_id + " | " + res[i].department_name +  " | " + res[i].product_name + " | " + res[i].price+ " | " + res[i].stock_quantity);
             possibleItemIds.push(res[i].item_id);
         }
-        console.log("");
         console.log("");
         inquirer
             .prompt({
